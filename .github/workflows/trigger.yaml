@@ -18,5 +18,5 @@ jobs:
       with:
         event-type: release_event
         token: ${{ secrets.REPO_TRIGGER_KEY }}
-        repository: smart-grid-use-cases/excel2xml
+        repository: richardmarston/excel2xml
         client-payload: '{"tag": "${{ steps.tag.outputs.TAG }}" }'
