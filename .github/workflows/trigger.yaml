@@ -18,5 +18,5 @@ jobs:
       with:
         event-type: release_event
         token: ${{ secrets.REPO_TRIGGER_KEY }}
-        repository: ../excel2xml
+        repository: ./excel2xml
         client-payload: '{"tag": "${{ steps.tag.outputs.TAG }}" }'
